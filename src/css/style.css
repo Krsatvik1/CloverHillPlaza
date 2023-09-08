@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Manrope/Manrope-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/Manrope/Manrope-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 200;
+  src: url('../fonts/Manrope/Manrope-ExtraLight.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/Manrope/Manrope-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/Manrope/Manrope-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/Manrope/Manrope-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/Manrope/Manrope-ExtraBold.ttf') format('truetype');
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 200,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.logo-scroller {
+    animation: scroll 2000s linear infinite;
+}
+
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
+
+.faq .button.active{
+  rotate: 45deg;
+}
+.faq > .para.active{
+  height: 9rem;
+  padding-bottom: 2.51rem;
+  padding-top: 2.51rem;
+}
+@media screen and (max-width: 768px) {
+  .faq > .para.active{
+    height: 10rem;
+    padding-bottom: 2.51rem;
+    padding-top: 2.51rem;
+  }
+}
+
+.side-active{
+  transform: translateX(0);
+}

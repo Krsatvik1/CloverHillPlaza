@@ -1,0 +1,40 @@
+{
+  "name": "cloverhillplaza",
+  "version": "1.0.0",
+  "description": "Landing papge for CloverHillPlaza",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss build -i src/css/style.css -o public/css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Krsatvik1/CloverHillPlaza.git"
+  },
+  "keywords": [
+    "Landing",
+    "page"
+  ],
+  "author": "PIRATA INTERACTIVES",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Krsatvik1/CloverHillPlaza/issues"
+  },
+  "homepage": "https://github.com/Krsatvik1/CloverHillPlaza#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "connect-flash": "^0.1.1",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "nodemailer": "^6.9.4",
+    "nodemailer-ses-transport": "^1.5.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.6",
+    "connect-livereload": "^0.6.1",
+    "livereload": "^0.9.3",
+    "tailwindcss": "^3.3.3"
+  }
+}
