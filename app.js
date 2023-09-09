@@ -17,13 +17,6 @@ var sesTransport = require("nodemailer-ses-transport");
 const livereload = require('livereload');
 const connectLiveReload = require('connect-livereload');
 require("dotenv").config();
-const liveReloadServer = livereload.createServer();
-liveReloadServer.watch(__dirname + '/public');
-liveReloadServer.watch(__dirname + '/views');
-app.use(connectLiveReload({
-  server: liveReloadServer,
-}));
-
 //set view engine
 app.set("view engine", "ejs");
 
@@ -96,8 +89,3 @@ app.listen(process.env.PORT, function () {
 });
 
 
-liveReloadServer.server.once('connection', () => {
-  setTimeout(() => {
-    liveReloadServer.refresh('/');
-  }, 100);
-});
