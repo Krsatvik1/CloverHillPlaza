@@ -1042,10 +1042,6 @@ select {
   margin-top: 1.88rem;
 }
 
-.mt-\[2\.12rem\] {
-  margin-top: 2.12rem;
-}
-
 .mt-\[2\.56rem\] {
   margin-top: 2.56rem;
 }
@@ -1222,10 +1218,6 @@ select {
   height: 3rem;
 }
 
-.h-\[7\.8rem\] {
-  height: 7.8rem;
-}
-
 .h-\[8\.9rem\] {
   height: 8.9rem;
 }
@@ -1382,6 +1374,16 @@ select {
 
 .translate-y-full {
   --tw-translate-y: 100%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.rotate-90 {
+  --tw-rotate: 90deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.rotate-180 {
+  --tw-rotate: 180deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -2132,6 +2134,10 @@ select {
   padding-top: 4.37rem;
 }
 
+.pb-52 {
+  padding-bottom: 13rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -2493,7 +2499,7 @@ select {
 }
 
 .faq > .para.active{
-  height: 9rem;
+  height: 7rem;
   padding-bottom: 2.51rem;
   padding-top: 2.51rem;
 }
@@ -2623,6 +2629,14 @@ select {
 
   .md\:mt-5 {
     margin-top: 1.25rem;
+  }
+
+  .md\:mt-8 {
+    margin-top: 2rem;
+  }
+
+  .md\:mt-\[10\.12rem\] {
+    margin-top: 10.12rem;
   }
 
   .md\:mt-\[2\.5rem\] {
@@ -2770,10 +2784,6 @@ select {
     row-gap: 1.5rem;
   }
 
-  .md\:overflow-auto {
-    overflow: auto;
-  }
-
   .md\:overflow-visible {
     overflow: visible;
   }
@@ -2838,6 +2848,11 @@ select {
     padding-bottom: 0.5rem;
   }
 
+  .md\:py-\[0\.9rem\] {
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+  }
+
   .md\:py-\[1\.12rem\] {
     padding-top: 1.12rem;
     padding-bottom: 1.12rem;
@@ -2870,6 +2885,10 @@ select {
 
   .md\:pt-\[5rem\] {
     padding-top: 5rem;
+  }
+
+  .md\:pb-32 {
+    padding-bottom: 8rem;
   }
 
   .md\:text-2xl {

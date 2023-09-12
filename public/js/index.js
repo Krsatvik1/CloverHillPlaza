@@ -9,7 +9,7 @@ if (window.innerWidth > 768) {
   const element = document.getElementById("header");
   const desiredHeight = screenHeight - 148;
 
-  element.style.height = desiredHeight + "px";
+  element.style.height = null;
 }
 
 window.addEventListener("resize", () => {
@@ -59,7 +59,7 @@ clicker.addEventListener("click", () => {
 
 const form = document.querySelector("#form");
 
-const url = `https://api.hsforms.com/submissions/v3/integration/submit/${43795697}/${'81ab7dd7-45f5-47c7-a539-04fa38c18a3a'}`;
+const url = `https://api.hsforms.com/submissions/v3/integration/submit/${43824706}/${'67d057d0-8841-4684-bf31-83caa5f36b30'}`;
 function handleFormSubmit(event) {
   let name = document.querySelector('input[name="name_client"]').value;
   let email = document.querySelector('input[name="email"]').value;
