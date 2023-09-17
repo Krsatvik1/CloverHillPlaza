@@ -1377,13 +1377,13 @@ select {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.rotate-90 {
-  --tw-rotate: 90deg;
+.rotate-180 {
+  --tw-rotate: 180deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.rotate-180 {
-  --tw-rotate: 180deg;
+.rotate-90 {
+  --tw-rotate: 90deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -2014,6 +2014,10 @@ select {
   padding-bottom: 10rem;
 }
 
+.pb-52 {
+  padding-bottom: 13rem;
+}
+
 .pb-60 {
   padding-bottom: 15rem;
 }
@@ -2132,10 +2136,6 @@ select {
 
 .pt-\[4\.37rem\] {
   padding-top: 4.37rem;
-}
-
-.pb-52 {
-  padding-bottom: 13rem;
 }
 
 .text-center {
@@ -2863,6 +2863,10 @@ select {
     padding-bottom: 1.285rem;
   }
 
+  .md\:pb-32 {
+    padding-bottom: 8rem;
+  }
+
   .md\:pb-\[7\.63rem\] {
     padding-bottom: 7.63rem;
   }
@@ -2885,10 +2889,6 @@ select {
 
   .md\:pt-\[5rem\] {
     padding-top: 5rem;
-  }
-
-  .md\:pb-32 {
-    padding-bottom: 8rem;
   }
 
   .md\:text-2xl {

@@ -24,7 +24,7 @@ window.addEventListener("resize", () => {
     const element = document.getElementById("header");
     const desiredHeight = screenHeight - 148;
 
-    element.style.height = desiredHeight + "px";
+    element.style.height = null;
   }
 });
 
