@@ -832,16 +832,6 @@ select {
   margin-right: 0.25rem;
 }
 
-.my-\[1\.5rem\] {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
-.my-auto {
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
 .my-10 {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
@@ -850,6 +840,16 @@ select {
 .my-20 {
   margin-top: 5rem;
   margin-bottom: 5rem;
+}
+
+.my-\[1\.5rem\] {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .mb-0 {
@@ -2053,6 +2053,10 @@ select {
   padding-left: 2.5rem;
 }
 
+.pl-2 {
+  padding-left: 0.5rem;
+}
+
 .pl-3 {
   padding-left: 0.75rem;
 }
@@ -2157,10 +2161,6 @@ select {
   padding-top: 4.37rem;
 }
 
-.pl-2 {
-  padding-left: 0.5rem;
-}
-
 .text-center {
   text-align: center;
 }
@@ -2205,6 +2205,10 @@ select {
   line-height: 1;
 }
 
+.text-\[0\.4rem\] {
+  font-size: 0.4rem;
+}
+
 .text-\[0\.5rem\] {
   font-size: 0.5rem;
 }
@@ -2229,12 +2233,12 @@ select {
   font-size: 0.93rem;
 }
 
-.text-\[2\.25rem\] {
-  font-size: 2.25rem;
+.text-\[2\.0rem\] {
+  font-size: 2.0rem;
 }
 
-.text-\[2\.5rem\] {
-  font-size: 2.5rem;
+.text-\[2\.25rem\] {
+  font-size: 2.25rem;
 }
 
 .text-base {
@@ -2255,14 +2259,6 @@ select {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-\[0\.4rem\] {
-  font-size: 0.4rem;
-}
-
-.text-\[2\.0rem\] {
-  font-size: 2.0rem;
 }
 
 .font-bold {
@@ -2317,12 +2313,12 @@ select {
   line-height: 1.5;
 }
 
-.leading-tight {
-  line-height: 1.25;
-}
-
 .leading-snug {
   line-height: 1.375;
+}
+
+.leading-tight {
+  line-height: 1.25;
 }
 
 .tracking-\[0\.00625rem\] {
@@ -2365,18 +2361,6 @@ select {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[\] {
-  color: ;
-}
-
-.text-\[0\.\] {
-  color: 0.;
-}
-
-.text-\[0\.4\] {
-  color: 0.4;
 }
 
 .underline {
@@ -2718,10 +2702,6 @@ select {
     margin-top: auto;
   }
 
-  .md\:mt-20 {
-    margin-top: 5rem;
-  }
-
   .md\:block {
     display: block;
   }
@@ -2926,6 +2906,10 @@ select {
     padding-bottom: 7.63rem;
   }
 
+  .md\:pl-2 {
+    padding-left: 0.5rem;
+  }
+
   .md\:pr-\[5\.5rem\] {
     padding-right: 5.5rem;
   }
@@ -2946,10 +2930,6 @@ select {
     padding-top: 5rem;
   }
 
-  .md\:pl-2 {
-    padding-left: 0.5rem;
-  }
-
   .md\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -2964,12 +2944,12 @@ select {
     font-size: 1.25rem;
   }
 
-  .md\:text-\[4rem\] {
-    font-size: 4rem;
+  .md\:text-\[4\.5rem\] {
+    font-size: 4.5rem;
   }
 
-  .md\:text-\[5\.0rem\] {
-    font-size: 5.0rem;
+  .md\:text-\[4rem\] {
+    font-size: 4rem;
   }
 
   .md\:text-base {
@@ -2990,10 +2970,6 @@ select {
   .md\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
-  }
-
-  .md\:text-\[4\.5rem\] {
-    font-size: 4.5rem;
   }
 
   .md\:leading-\[4\.724rem\] {
